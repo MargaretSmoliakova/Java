@@ -1,9 +1,8 @@
 
-
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
@@ -11,16 +10,18 @@ import java.util.ArrayList;
 /**
  * Created by Маргарита on 23.12.2016.
  */
+
 public class PaneNinthFirst extends JPanel {
 
-    private ArrayList<String> leftArrayList = new ArrayList<String> ();
-    private ArrayList<String> rightArrayList = new ArrayList<String> ();
+    private DefaultListModel<String> leftList = new DefaultListModel<String> ();
+    private DefaultListModel<String> rightList = new DefaultListModel<String> ();
     JButton buttonS = new JButton("<");
     JButton buttonN = new JButton(">");
-    JTextArea leftTextField = new JTextArea();
-    JTextArea rightTextField = new JTextArea();
+    JList leftTextField = new JList(leftList);
+    JList rightTextField = new JList(rightList);
 
-    String stringToMove;
+    String stringToMoveToRight;
+    String stringToMoveToLeft;
 
     public PaneNinthFirst () {
         super();
@@ -38,23 +39,16 @@ public class PaneNinthFirst extends JPanel {
         panelForButtons.add(buttonS, BorderLayout.SOUTH);
 
 // adding TextFields
-        leftTextField.setEditable(false);
+
         leftTextField.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
-        formArrayLists();
-        for (int i = 0; i < leftArrayList.size(); i++) {
-            leftTextField.append(leftArrayList.get(i));
-            leftTextField.append("\n");
-        }
+        rightTextField.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
+
+        formLists();
+
         JScrollPane leftScrollPane = new JScrollPane(leftTextField);
         leftScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         leftScrollPane.setPreferredSize(new Dimension(200, 0));
 
-        rightTextField.setEditable(false);
-        rightTextField.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
-        for (int i = 0; i < rightArrayList.size(); i++) {
-            rightTextField.append(rightArrayList.get(i));
-            rightTextField.append("\n");
-        }
         JScrollPane rightScrollPane = new JScrollPane(rightTextField);
         rightScrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         rightScrollPane.setPreferredSize(new Dimension(200, 0));
@@ -66,53 +60,54 @@ public class PaneNinthFirst extends JPanel {
         addFunctionality();
     }
 
-    private void formArrayLists () {
-        leftArrayList.add("just");
-        leftArrayList.add("one");
-        leftArrayList.add("simple");
-        leftArrayList.add("string");
-        leftArrayList.add("here");
+    private void formLists () {
+        leftList.addElement("just");
+        leftList.addElement("one");
+        leftList.addElement("simple");
+        leftList.addElement("string");
+        leftList.addElement("here");
 
-        rightArrayList.add("just");
-        rightArrayList.add("another");
-        rightArrayList.add("simple");
-        rightArrayList.add("string");
-        rightArrayList.add("here");
+        rightList.addElement("just");
+        rightList.addElement("another");
+        rightList.addElement("simple");
+        rightList.addElement("string");
+        rightList.addElement("here");
     }
 
     private void addFunctionality () {
+        buttonS.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+
+                int index = -1;
+
+                stringToMoveToLeft = (String) rightTextField.getSelectedValue();
+                index = rightTextField.getSelectedIndex();
+
+                if (index >= 0 && stringToMoveToLeft != null) {
+                    leftList.addElement(stringToMoveToLeft);
+                    rightList.remove(index);
+                }
+
+                stringToMoveToLeft = null;
+            }
+        });
 
         buttonN.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
 
-                if (stringToMove != null) {
-                    rightArrayList.add(stringToMove);
-                    leftArrayList.remove(stringToMove);
+                int index = -1;
 
-                    leftTextField.setText("");
-                    rightTextField.setText("");
+                stringToMoveToRight = (String) leftTextField.getSelectedValue();
+                index = leftTextField.getSelectedIndex();
 
-                    for (int i = 0; i < leftArrayList.size(); i++) {
-                        leftTextField.append(leftArrayList.get(i));
-                        leftTextField.append("\n");
-                    }
-
-                    for (int i = 0; i < rightArrayList.size(); i++) {
-                        rightTextField.append(rightArrayList.get(i));
-                        rightTextField.append("\n");
-                    }
-
-                    stringToMove = null;
+                if (index >= 0 && stringToMoveToRight != null) {
+                    rightList.addElement(stringToMoveToRight);
+                    leftList.remove(index);
                 }
-            }
-        });
 
-        leftTextField.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseReleased(MouseEvent e) {
-                int i =
-                stringToMove = StringUtils. //(leftTextField.getSelectedText(), "\n");
+                stringToMoveToLeft = null;
             }
         });
     }
