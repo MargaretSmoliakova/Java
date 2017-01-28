@@ -40,7 +40,7 @@ public class PaneNinthSecond extends JPanel {
         this.setLayout(new GridLayout(4, 5));
 
 // adding Buttons
-        this.add(button1);
+       /* this.add(button1);
         this.add(button2);
         this.add(button3);
         this.add(button4);
@@ -59,7 +59,7 @@ public class PaneNinthSecond extends JPanel {
         this.add(button17);
         this.add(button18);
         this.add(button19);
-        this.add(button20);
+        this.add(button20);*/
 
         addFunctionality();
     }
@@ -79,20 +79,29 @@ public class PaneNinthSecond extends JPanel {
             }
 
             public void mousePressed(MouseEvent e) {
-                JButton button = (JButton) e.getSource();
-                buttonText = button.getText();
-                button.setText("Clicked!");
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    JButton button = (JButton) e.getSource();
+                    buttonText = button.getText();
+                    button.setText("Clicked!");
+                }
             }
 
             public void mouseReleased(MouseEvent e) {
                 JButton button = (JButton) e.getSource();
-                button.setText(buttonText);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    button.setText(buttonText);
 
-                buttonText = null;
+                    buttonText = null;
+                }
             }
         };
 
-        button1.addMouseListener(mouseListener);
+        for (int i = 1; i < 30; i++) {
+            JButton button = new JButton(Integer.toString(i));
+            this.add(button);
+            button.addMouseListener(mouseListener);
+        }
+       /* button1.addMouseListener(mouseListener);
         button2.addMouseListener(mouseListener);
         button3.addMouseListener(mouseListener);
         button4.addMouseListener(mouseListener);
@@ -112,6 +121,6 @@ public class PaneNinthSecond extends JPanel {
         button17.addMouseListener(mouseListener);
         button18.addMouseListener(mouseListener);
         button19.addMouseListener(mouseListener);
-        button20.addMouseListener(mouseListener);
+        button20.addMouseListener(mouseListener);*/
     }
 }

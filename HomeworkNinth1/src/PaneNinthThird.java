@@ -14,7 +14,7 @@ public class PaneNinthThird extends JPanel {
 
 // adding radio buttons
 
-        ImageIcon imageIcon1 = new ImageIcon("C:\\ALL\\PROGRAMMING\\JavaProgramming\\HomeworkNinth1\\Images\\jerry.png");
+        ImageIcon imageIcon1 = new ImageIcon("Images\\jerry.png");
         ImageIcon imageIcon2 = new ImageIcon("C:\\ALL\\PROGRAMMING\\JavaProgramming\\HomeworkNinth1\\Images\\jerry-2.png");
         ImageIcon imageIcon3 = new ImageIcon("C:\\ALL\\PROGRAMMING\\JavaProgramming\\HomeworkNinth1\\Images\\jerry-3.png");
 
@@ -37,5 +37,10 @@ public class PaneNinthThird extends JPanel {
         this.add(jRadioButton1);
         this.add(jRadioButton2);
         this.add(jRadioButton3);
+
+        ButtonGroup group = new ButtonGroup();
+        group.add(jRadioButton1);
+        group.add(jRadioButton2);
+        group.add(jRadioButton3);
     }
 }
