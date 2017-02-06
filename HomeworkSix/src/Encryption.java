@@ -90,7 +90,51 @@ public class Encryption {
         }
 
         bufferedWriter.close();
-        outputStreamWriter.close();
-        outputStream.close();
+    }
+
+    public void changeTextBack (String pathDecoding, String pathEncrypted) throws IOException {
+
+        File file = new File(pathEncrypted);
+        File fileForDecoding = new File(pathDecoding);
+        Scanner sc =  new Scanner(file, "cp1251");
+        String tempString;
+        char[] tempCharArray;
+        int i = 0, j = 0, lengthTempCharArrayFinal = 0;
+        char[] tempCharArrayFinal;
+
+// you can work with strings without char[]
+        OutputStream outputStream = new FileOutputStream(fileForDecoding);
+        Writer outputStreamWriter = new OutputStreamWriter(outputStream, "cp1251");
+        BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
+
+        System.out.println("\nText changed back: \n");
+
+        while (sc.hasNextLine()) {
+            tempString = sc.nextLine();
+            StringTokenizer st = new StringTokenizer(tempString, "#");
+            while (st.hasMoreTokens()) {
+                tempCharArray = st.nextToken().toCharArray();
+                lengthTempCharArrayFinal = tempCharArray.length;
+                tempCharArrayFinal = new char[lengthTempCharArrayFinal];
+                j = 0;
+                for (i = 0; i < tempCharArray.length; j++) {
+                    tempCharArrayFinal[j] = tempCharArray[i];
+                    i++;
+                    if (i < tempCharArray.length) {
+                        tempCharArrayFinal[lengthTempCharArrayFinal - 1 - j] = tempCharArray[i];
+                        i++;
+                    }
+                }
+                bufferedWriter.write(tempCharArrayFinal);
+                bufferedWriter.write("\n");
+                System.out.print("\n");
+
+                for (char ch: tempCharArrayFinal) {
+                    System.out.print(ch);
+                }
+            }
+        }
+
+        bufferedWriter.close();
     }
 }

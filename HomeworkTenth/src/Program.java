@@ -17,27 +17,14 @@ public class Program {
         String pathFileOfInt = "in.txt";
 
 // Forming array lists
-        FormingArrayLists formingArrayLists = new FormingArrayLists(arrayListOfStudents, pathFileOfStudents, arrayListOfInt, pathFileOfInt);
+
+        MinMax<Integer> minMaxArrayListOfInt = new MinMax<>();
+        MinMax<Students> minMaxArrayListOfStudents = new MinMax<>();
+
+        FormingArrayLists formingArrayLists = new FormingArrayLists(minMaxArrayListOfStudents, pathFileOfStudents, minMaxArrayListOfInt, pathFileOfInt);
 
 // Printing out array list
 
-        PrintingOutArrays printingOutArrays = new PrintingOutArrays();
-
-        System.out.println("Original array list of Int:");
-        printingOutArrays.printOutIntegers(arrayListOfInt);
-
-        System.out.println("\nOriginal array list of Students:");
-        printingOutArrays.printOutStudents(arrayListOfStudents);
-
-        MinMax<Integer> minMaxArrayListOfInt = new MinMax<>();
-        System.out.println("\nMin value: " + minMaxArrayListOfInt.getMin(arrayListOfInt).intValue());
-        System.out.println("Max value: " + minMaxArrayListOfInt.getMax(arrayListOfInt).intValue());
-
-        MinMax<Students> minMaxArrayListOfStudents = new MinMax<>();
-        Students student = minMaxArrayListOfStudents.getMin(arrayListOfStudents);
-        System.out.println("\nFirst student:\n" + "surname: " + student.getSurname() + "\nyear: " + student.getYear() + "\naverage grade: " + student.getAvgGrade());
-        student = minMaxArrayListOfStudents.getMax(arrayListOfStudents);
-        System.out.println("\nLast student:\n" + "surname: " + student.getSurname() + "\nyear: " + student.getYear() + "\naverage grade: " + student.getAvgGrade());
 
 
 

@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93ea018d-f6c7-4375-8f51-e2a87a213b4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeworkNinth1/PaneNinthThird.class" afterPath="$PROJECT_DIR$/out/production/HomeworkNinth1/PaneNinthThird.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/Bubbles.class" afterPath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/Bubbles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation$1.class" afterPath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation$GraficCreation.class" afterPath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation$GraficCreation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation.class" afterPath="$PROJECT_DIR$/../HomeworkNinth2/out/production/HomeworkNinth2/FrameCreation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HomeworkEleventh1/out/production/HomeworkEleventh1/GUI$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HomeworkSix/FileWriter.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkEleventh1/out/production/HomeworkEleventh1/GUI.class" afterPath="$PROJECT_DIR$/../HomeworkEleventh1/out/production/HomeworkEleventh1/GUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/out/production/HomeworkSix1/Encryption.class" afterPath="$PROJECT_DIR$/../HomeworkSix/out/production/HomeworkSix1/Encryption.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/out/production/HomeworkSix1/Program.class" afterPath="$PROJECT_DIR$/../HomeworkSix/out/production/HomeworkSix1/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkEleventh1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeworkEleventh1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkEleventh1/src/GUI.java" afterPath="$PROJECT_DIR$/../HomeworkEleventh1/src/GUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PaneNinthSecond.java" afterPath="$PROJECT_DIR$/src/PaneNinthSecond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PaneNinthThird.java" afterPath="$PROJECT_DIR$/src/PaneNinthThird.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/.idea/misc.xml" afterPath="$PROJECT_DIR$/../HomeworkNinth2/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkNinth2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeworkNinth2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSecond1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeworkSecond1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/.idea/misc.xml" afterPath="$PROJECT_DIR$/../HomeworkSix/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeworkSix/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/src/Encryption.java" afterPath="$PROJECT_DIR$/../HomeworkSix/src/Encryption.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkSix/src/Program.java" afterPath="$PROJECT_DIR$/../HomeworkSix/src/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeworkTenth/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeworkTenth/.idea/workspace.xml" />
     </list>
     <ignored path="HomeworkNinth1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaneNinthFirst.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PaneNinthFirst.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PaneNinthFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="48" column="79" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="79" />
+            <state relative-caret-position="153">
+              <caret line="42" column="78" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="78" />
               <folding>
                 <element signature="e#376#384#0" expanded="true" />
                 <element signature="e#458#466#0" expanded="true" />
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaneNinthSecond.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaneNinthSecond.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaneNinthSecond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="98" column="30" lean-forward="false" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+            <state relative-caret-position="1258">
+              <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -82,7 +81,7 @@
       <file leaf-file-name="PaneNinthThird.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PaneNinthThird.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="714">
               <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,6 +142,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,9 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,28 +451,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966226" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25265554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25644916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -481,6 +479,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -507,6 +506,43 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/FrameCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaneNinthFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="79" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="79" />
+          <folding>
+            <element signature="e#376#384#0" expanded="true" />
+            <element signature="e#458#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaneNinthSecond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaneNinthThird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -887,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaneNinthThird.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="714">
           <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -895,22 +931,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaneNinthSecond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PaneNinthFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="48" column="79" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="79" />
+        <state relative-caret-position="153">
+          <caret line="42" column="78" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="78" />
           <folding>
             <element signature="e#376#384#0" expanded="true" />
             <element signature="e#458#466#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaneNinthSecond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="98" column="30" lean-forward="false" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>

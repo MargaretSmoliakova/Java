@@ -39,28 +39,6 @@ public class PaneNinthSecond extends JPanel {
         super();
         this.setLayout(new GridLayout(4, 5));
 
-// adding Buttons
-       /* this.add(button1);
-        this.add(button2);
-        this.add(button3);
-        this.add(button4);
-        this.add(button5);
-        this.add(button6);
-        this.add(button7);
-        this.add(button8);
-        this.add(button9);
-        this.add(button10);
-        this.add(button11);
-        this.add(button12);
-        this.add(button13);
-        this.add(button14);
-        this.add(button15);
-        this.add(button16);
-        this.add(button17);
-        this.add(button18);
-        this.add(button19);
-        this.add(button20);*/
-
         addFunctionality();
     }
 
@@ -101,26 +79,5 @@ public class PaneNinthSecond extends JPanel {
             this.add(button);
             button.addMouseListener(mouseListener);
         }
-       /* button1.addMouseListener(mouseListener);
-        button2.addMouseListener(mouseListener);
-        button3.addMouseListener(mouseListener);
-        button4.addMouseListener(mouseListener);
-        button5.addMouseListener(mouseListener);
-        button6.addMouseListener(mouseListener);
-        button7.addMouseListener(mouseListener);
-        button8.addMouseListener(mouseListener);
-        button9.addMouseListener(mouseListener);
-        button10.addMouseListener(mouseListener);
-        button11.addMouseListener(mouseListener);
-        button12.addMouseListener(mouseListener);
-        button12.addMouseListener(mouseListener);
-        button13.addMouseListener(mouseListener);
-        button14.addMouseListener(mouseListener);
-        button15.addMouseListener(mouseListener);
-        button16.addMouseListener(mouseListener);
-        button17.addMouseListener(mouseListener);
-        button18.addMouseListener(mouseListener);
-        button19.addMouseListener(mouseListener);
-        button20.addMouseListener(mouseListener);*/
     }
 }

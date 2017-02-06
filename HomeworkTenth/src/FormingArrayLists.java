@@ -12,11 +12,11 @@ class FormingArrayLists {
 
     public FormingArrayLists() {}
 
-    public FormingArrayLists(ArrayList<Students> students, String pathStudents, List<Integer> integers, String pathIntegers) throws FileNotFoundException {
+    public FormingArrayLists(MinMax<Students> students, String pathStudents, MinMax<Integer> integers, String pathIntegers) throws FileNotFoundException {
        readFromFile(students, pathStudents, integers, pathIntegers);
     }
 
-    private void readFromFile (ArrayList<Students> students, String pathStudents, List<Integer> integers, String pathIntegers) throws FileNotFoundException {
+    private void readFromFile (MinMax<Students> students, String pathStudents, MinMax<Integer> integers, String pathIntegers) throws FileNotFoundException {
 
         File fileForSrudents = new File (pathStudents);
         File fileForInt = new File (pathIntegers);
@@ -31,5 +31,24 @@ class FormingArrayLists {
         while (scStudents.hasNextLine()) {
             students.add (new Students(scStudents.nextLine()));
         }
+
+        PrintingOutArrays printingOutArrays = new PrintingOutArrays();
+
+        System.out.println("Original array list of Int:");
+        printingOutArrays.printOutIntegers(integers);
+
+        System.out.println("\nOriginal array list of Students:");
+        printingOutArrays.printOutStudents(students);
+
+
+        System.out.println("\nMin value: " + integers.getMin().intValue());
+        System.out.println("Max value: " + integers.getMax().intValue());
+
+
+        Students student = students.getMin();
+        System.out.println("\nFirst student:\n" + "surname: " + student.getSurname() + "\nyear: " + student.getYear() + "\naverage grade: " + student.getAvgGrade());
+        student = students.getMax();
+        System.out.println("\nLast student:\n" + "surname: " + student.getSurname() + "\nyear: " + student.getYear() + "\naverage grade: " + student.getAvgGrade());
+
     }
 }
